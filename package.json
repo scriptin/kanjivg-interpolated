@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "kanjivg-interpolated",
+  "description": "KanjiVG - interpolated version",
+  "version": "0.0.1",
+  "license": "CC-BY-SA-4.0",
+  "author": "Dmitry Shpika",
+  "homepage": "https://github.com/scriptin/kanjivg-interpolated",
+  "keywords": [
+    "kanji",
+    "kanjivg",
+    "japanese"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scriptin/kanjivg-interpolated.git"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "scripts": {
+    "start": "node build-data.js"
+  },
+  "dependencies": {
+    "bezier-js": "^1.0.7",
+    "chai": "^3.2.0",
+    "lodash": "^3.10.0",
+    "rimraf": "^2.4.2",
+    "sax": "^1.1.1",
+    "svgpath": "^2.0.0"
+  },
+  "devDependencies": {}
+}
