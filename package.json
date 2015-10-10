@@ -19,12 +19,13 @@
     "node": ">=0.12"
   },
   "scripts": {
-    "start": "node build-data.js"
+    "start": "node build.js"
   },
   "dependencies": {
     "bezier-js": "^1.0.7",
     "chai": "^3.2.0",
     "lodash": "^3.10.0",
+    "minimist": "^1.2.0",
     "rimraf": "^2.4.2",
     "sax": "^1.1.1",
     "svgpath": "^2.0.0"
