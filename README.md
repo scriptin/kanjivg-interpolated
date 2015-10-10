@@ -1,6 +1,6 @@
 # KanjiVG interpolated
 
-This is a script which builds an interpolated version of kanji from [KanjiVG](https://github.com/KanjiVG/kanjivg) project.
+This is a script which builds interpolated versions of kanji characters from [KanjiVG](https://github.com/KanjiVG/kanjivg) project. "Interpolated" means that SVG paths which describe strokes in original files are converted to plain lists of 2D points, which is useful when you don't have the ability to parse SVG and want a simple way to draw/manipulate kanji in your programs.
 
 ## Building
 
